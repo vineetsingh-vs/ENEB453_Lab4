@@ -1,0 +1,59 @@
+/* header {
+    background-color: #F5F5F5;   
+    margin: 5px 30px;
+    
+} */
+h1 {
+    /* width: 98%; */
+    background-color: royalblue;
+    font-family: "Open Sans",Arial, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+    color: white;
+}
+
+#buttondiv{
+    
+}
+
+button { 
+    position:absolute;
+    left: 25px;
+    background-color:darkorange; 
+    width: 10%;
+    color: white; 
+    padding: 15px; 
+    margin: 10px 0px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 7px;
+} 
+
+button:hover { 
+    opacity: 0.7; 
+} 
+
+#fetchbutton { 
+    border: none; 
+    /* margin-top: 2em; */
+ } 
+
+#dropdowndiv{
+    /* width: 96%; */
+    display:none;
+    margin-top: 6em;
+    padding: 15px; 
+    background-color: rgb(116, 196, 230);
+    align-items:normal;
+}
+
+#photos{
+    display:none;
+    padding: 15px; 
+    width: fit-content;
+}
+
+label{
+    font-weight: bold;
+}

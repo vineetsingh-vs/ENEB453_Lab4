@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script type="text/javascript" src="index.js" defer></script>
+        <h1>ENEB453 - Image Processing - Kevin Coello</h1>
+    </head>
+
+  <body>
+    <form id="fetchbutton">
+        <div id="buttondiv">
+          <button type="submit" onclick="makecall(event);">Fetch Countries</button> 
+        </div>
+    </form>  
+    <div id="dropdowndiv">
+      <form action="/action_page.php">
+        <label for="countries">Select country to perform second fetch</label><br>
+        <select name="countries" id="countries" onchange="changeFunc();">
+          <option value="sel">Select a country</option>
+          <option value="Austria">Austria</option>
+          <option value="United States">United States</option>
+        </select>
+      </form>
+    </div> 
+
+    <div id="photos">
+    </div>
+  </body>
+
+</html>
